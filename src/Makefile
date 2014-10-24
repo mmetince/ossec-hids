@@ -96,3 +96,6 @@ setoneway:
 
 setzeromq:
 		@echo "CZEROMQ_OUTPUT=-DZEROMQ_OUTPUT -lzmq -lczmq" >> ./Config.OS
+	
+setmongodb:
+		@echo "CZEROMQ_OUTPUT=-I/usr/local/include -L/usr/local/lib -llibbson -llibmongoc" >> ./Config.OS	
